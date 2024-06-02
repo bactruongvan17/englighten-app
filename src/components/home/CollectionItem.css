@@ -1,0 +1,25 @@
+.collection-item {
+  position: relative;
+  height: 104px;
+  border-radius: 8px;
+}
+
+.collection-item:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: inherit;
+}
+
+.collection-item span {
+  position: absolute;
+  color: #ffffff;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

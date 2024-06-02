@@ -1,0 +1,10 @@
+ion-toolbar {
+  --background: #5f0979;
+  --color: #ffffff;
+  --display: flex;
+  --align-items: center;
+}
+
+ion-content {
+  --background: #ffffff;
+}
